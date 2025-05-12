@@ -1,0 +1,26 @@
+header{
+    margin: 10px;
+    background-color: azure;
+}
+ .caja {
+      width: 100px;
+      height: 100px;
+      background-color: hsl(0, 82%, 38%);
+      margin: 10px;
+      
+    }
+.estructura{
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid rgb(6, 153, 92);
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.estructura img{
+
+    align-content: center;
+    width: 50vh;
+    
+}
+

@@ -1,0 +1,23 @@
+/* Organizar el sitio usan Flex Box*/
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+
+.columna {
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+/* Estilos opcionales para diferenciar visualmente */
+.practica1 { background-color: #0879db; }
+.estructura1 { background-color: #2011f1; }
+.practica2 { background-color: #7c0606; }
+.estructura2 { background-color: #e6e6fa; }
+.practica3 { background-color: #69bb50; }
+.estructura3 { background-color: #0ae653; }
