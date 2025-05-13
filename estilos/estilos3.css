@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.columna {
+  flex: 1 1 50%; /* 2 columnas por fila */
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  min-height: 200px;
+}
+
+/* Estilos visuales por sección */
+.practica1 { background-color: #0879db; color: white; }
+.estructura1 { background-color: #2011f1; color: white; }
+.practica2 { background-color: #7c0606; color: white; }
+.estructura2 { background-color: #e6e6fa; }
+.practica3 { background-color: #69bb50; color: white; }
+.estructura3 { background-color: #0ae653; }
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #222;
+  color: white;
+}
